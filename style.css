@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     max-width: 100%;
+}
+body{
+    background-image: url(imagens/fundo/fundo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: azure;
+    text-align: center;
+}
+.logo img{
+    margin-top: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+.cabecalho{
+   margin: 20px 0px;
+}
+.cabecalho h5{
+    margin: 20px 0px;
+}
+.redessociais{
+    margin: 20px 0px;
+}
+.redessociais li{
+    display: inline-block;
+}
+.redessociais img{
+    width: 30px;
+    margin: 0px 10px;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.seguraquadro{
+    background-color: rgb(250, 173, 173);
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px 0px 15px 0px;
+    width: 600px;
+    border-style: outset;
+    border-color: white;
+    border-width: 10px;
+    border-top: 2px;
+    border-right: 2px;
+    color: white;
+}
+.quadro {
+
+}
+.quadro img{
+    width: 40px;
+    margin-left: 5px;
+}
+.texto{
+    margin: auto;
+}
+.texto a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.texto a:hover{
+    color: rgba(255, 255, 255, 0.548);
+    text-decoration: underline;
+}
