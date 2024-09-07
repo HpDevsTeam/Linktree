@@ -70,3 +70,21 @@ body{
     color: rgba(255, 255, 255, 0.548);
     text-decoration: underline;
 }
+.textomeio{
+    margin: 50px 0px;
+}
+.anunciox{
+    margin: 20px 0px;
+}
+.anunciox img{
+    width: 400px;
+}
+.anuncio2{
+    margin: 20px 0px;
+}
+.anuncio2 img{
+    width: 400px;
+}
+.copy{
+    margin: 100px 0px;
+}
